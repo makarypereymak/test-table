@@ -1,0 +1,11 @@
+.button {
+  color: #474955;
+  font-weight: 500;
+  font-size: 24px;
+  background-color: inherit;
+  border: none;
+
+  &--active {
+    color: #7ebc3c;
+  }
+}

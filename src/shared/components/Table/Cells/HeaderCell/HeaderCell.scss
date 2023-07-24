@@ -1,0 +1,27 @@
+.cell-header {
+  padding: 16px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 14px;
+  border-bottom: 1px solid #e3e6ec;
+  border-left: 1px solid #474955;
+}
+
+.cell-header-wrapper {
+  display: flex;
+  justify-content: center;
+  column-gap: 40px;
+}
+
+.sort-icon-upper {
+  transform: rotate(180deg);
+}
+
+.activeSortButton svg line {
+  stroke: #7ebc3c;
+}
+
+.sortButton {
+  background-color: inherit;
+  border: none;
+}

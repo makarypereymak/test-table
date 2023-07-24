@@ -1,0 +1,29 @@
+.search-input-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  padding-right: 18px;
+  column-gap: 10px;
+  background-color: #5a5c66;
+}
+
+.search-input {
+  width: 80%;
+  padding: 18px;
+  color: #ffffff;
+  background-color: inherit;
+  border: none;
+
+  &:focus {
+    outline: none;
+  }
+
+  &::placeholder {
+    color: #b2b7bf;
+  }
+}
+
+.search-button {
+  background-color: inherit;
+  border: none;
+}

@@ -1,0 +1,15 @@
+.table {
+  border-collapse: collapse;
+}
+
+.cell-table:last-child {
+  &:last-child {
+    border-right: 1px solid #e3e6ec;
+  }
+}
+
+.table-row {
+  &:last-child {
+    border-bottom: 1px solid #e3e6ec;
+  }
+}
